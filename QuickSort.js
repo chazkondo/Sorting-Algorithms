@@ -1,9 +1,11 @@
+// Quick Sort
+
 module.exports = (function(){
 	
 	function quickSort(origArray) {
-	if (origArray.length <= 1) { 
-		return origArray;
-	} else {
+		if (origArray.length <= 1) { 
+			return origArray;
+		} else {
 
 		let left = [];
 		let right = [];
@@ -20,8 +22,9 @@ module.exports = (function(){
 		}
 
 		return newArray.concat(quickSort(left), pivot, quickSort(right));
-	}
-}
-return {quickSort}
+		}
+	}	
+	return {quickSort}
+	
 })();
 	

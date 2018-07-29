@@ -27,13 +27,11 @@ module.exports = (function () {
         while(right.length){result.push(right.shift())}
         return result
     }
-
-console.log(mergeSort([5,3,7,9,8,3]))
-// http://jsbin.com/tonaguvihu/1/edit?js,console
     
-      return{
-          merge,
-          mergeSort};
+    return{
+        merge,
+        mergeSort
+    };
       
-    }());
+}());
     

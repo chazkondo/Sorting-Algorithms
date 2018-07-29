@@ -125,9 +125,3 @@ Selection Sort, at its fastest will perform at a quadratic rate relative to its 
 
 At its slowest, it will perform at a quadratic rate relative to its size.
 (Out of the five, this is the slowest method)
-
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request :D
