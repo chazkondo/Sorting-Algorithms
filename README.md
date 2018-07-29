@@ -1,4 +1,4 @@
-JavaScript Sorting Algorithms
+# JavaScript Sorting Algorithms
 
 
 What is an algorithm?
@@ -11,7 +11,8 @@ Knuth: ". . .we want good algorithms in some loosely defined aesthetic sense. On
 
 Chaitin: " . . . a program is 'elegant,' by which I mean that it's the smallest possible program for producing the output that it does"
 
-Getting Started
+
+## Getting Started
 
 
 Included is 5 javascript sorting algorithms for arrays.
@@ -26,7 +27,7 @@ To check if tests pass, run npm test.
 4. Insertion Sort
 5. Selection Sort
 
-How each algorithm works
+## How each algorithm works
 
 
 Each sorting algorithm sorts an array differently, and in turn, varies in performance.
@@ -42,7 +43,7 @@ Each sorting algorithm sorts an array differently, and in turn, varies in perfor
 5. Selection Sort - Selection Sort takes a similar approach to Insertion Sort as it takes the next number in the array and compares it to the rest of the numbers in the array. When the min value is identified, this algorithm takes the lowest number and puts it next to the smallest numbers already identified. 
 
 
-Implementation
+## Implementation
 
 
 1. Quick Sort:
@@ -100,7 +101,7 @@ Implementation
     Continue the process until the array is sorted and return your array.
 
 
-Big O Speed Performance
+## Big O Speed Performance
 
 [http://bigocheatsheet.com/]
 
