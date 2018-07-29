@@ -1,5 +1,6 @@
+// Merge sort
+
 module.exports = (function () {
-    //Merge sort
 
     function mergeSort(arr){
         let length = arr.length;
@@ -18,7 +19,6 @@ module.exports = (function () {
         while(left.length && right.length){
             if(left[0]<=right[0]){
                 result.push(left.shift())
-                debugger
             }else{
                 result.push(right.shift())
             }

@@ -32,7 +32,7 @@ describe("Merge Sort", function() {
       });
   
       it ("should sort a given array", function() {
-          let sorted = mergeSortModule.mergeSort([3,2,1]);
+          sorted = mergeSortModule.mergeSort([3,2,1]);
           expect(sorted).to.eql([1,2,3]);
       })
   
@@ -53,7 +53,7 @@ describe("Merge Sort", function() {
         });
     
         it ("should sort a given array", function() {
-            let sorted = bubbleSortModule.bubbleSort([3,2,1]);
+            sorted = bubbleSortModule.bubbleSort([3,2,1]);
             expect(sorted).to.eql([1,2,3]);
         })
     
@@ -74,7 +74,7 @@ describe("Merge Sort", function() {
           });
       
           it ("should sort a given array", function() {
-              let sorted = insertionSortModule.insertionSort([3,2,1]);
+              sorted = insertionSortModule.insertionSort([3,2,1]);
               expect(sorted).to.eql([1,2,3]);
           })
       
@@ -95,7 +95,7 @@ describe("Merge Sort", function() {
             });
         
             it ("should sort a given array", function() {
-                let sorted = selectionSortModule.selectionSort([3,2,1]);
+                sorted = selectionSortModule.selectionSort([3,2,1]);
                 expect(sorted).to.eql([1,2,3]);
             })
         
