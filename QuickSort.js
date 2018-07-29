@@ -1,7 +1,6 @@
-var MODULE = (function () {
-// Quick sort
-
-function quickSort(origArray) {
+module.exports = (function(){
+	
+	function quickSort(origArray) {
 	if (origArray.length <= 1) { 
 		return origArray;
 	} else {
@@ -19,21 +18,10 @@ function quickSort(origArray) {
 				right.push(origArray[i]);
 			}
 		}
-//         console.log('this is the left', left)
-//         console.log('this is the right', right)
+
 		return newArray.concat(quickSort(left), pivot, quickSort(right));
 	}
 }
-
-let myArray = [3, 0, 2, 5, -1, 4, 1 ];
-
-// console.log("Original array: " + myArray);
-// var sortedArray = quick_Sort(myArray);
-// console.log("Sorted array: " + sortedArray);
-
-console.log(quickSort(myArray))
-	
-	  return{quickSort:quickSort};
-	  
-	}());
+return {quickSort}
+})();
 	

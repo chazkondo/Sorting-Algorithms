@@ -1,7 +1,7 @@
-var MODULE = (function () {
+module.exports = (function () {
   // Selection Sort
 
-let array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8, 10, 3, 1, 4, 5, -1];
+let array = [9, 2, 5, 6, 4];
 
 // swap function helper
 function swap(array, i, j) {
@@ -25,9 +25,11 @@ function selectionSort(array) {
   return array;
 }
 
-console.log(selectionSort(array)); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+console.log(selectionSort(array));
   
-    return{selectionSort:selectionSort};
+    return{
+      swap,
+      selectionSort};
     
   }());
   

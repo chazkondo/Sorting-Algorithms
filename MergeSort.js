@@ -1,4 +1,4 @@
-var MODULE = (function () {
+module.exports = (function () {
     //Merge sort
 
     function mergeSort(arr){
@@ -31,7 +31,9 @@ var MODULE = (function () {
 console.log(mergeSort([5,3,7,9,8,3]))
 // http://jsbin.com/tonaguvihu/1/edit?js,console
     
-      return{mergeSort:mergeSort};
+      return{
+          merge,
+          mergeSort};
       
     }());
     
